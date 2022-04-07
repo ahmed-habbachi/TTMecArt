@@ -4,6 +4,7 @@ import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { MainContentComponent } from './layout/main-content/main-content.component';
 import { SideMenuComponent } from './layout/side-menu/side-menu.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -15,7 +16,8 @@ import { SideMenuComponent } from './layout/side-menu/side-menu.component';
     SideMenuComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule,
   ],
   exports: [
     HeaderComponent,
