@@ -1,13 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-body{
-	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
-}
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-}
 .container{
 	max-width: 1170px;
 	margin: auto ;
@@ -37,7 +27,7 @@ ul{
 }
 .footer-col h4::before{
 	content: '';
-	position: absolute;
+	position:absolute;
 	left: 0px;;
 	bottom: -10px;
 	background-color: rgb(194, 25, 25);
@@ -59,8 +49,8 @@ ul{
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color: #8b7e7e;
-	padding-left: 8px;
+	color: rgb(146, 49, 49);
+	padding-left: 7px;
 }
 .footer-col .social-links a{
 	display: inline-block;
@@ -111,22 +101,6 @@ textarea {
 .btn:hover{
 	box-shadow: 0 0 10px #646464;
   }
-
-
-
-
-/*responsive*/
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
-}
 
 
 
