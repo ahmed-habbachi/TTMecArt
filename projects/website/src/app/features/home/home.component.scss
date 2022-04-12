@@ -1,0 +1,105 @@
+.first-part {
+    background-color: black;
+    height: 590px;
+}
+.first-part ul li{
+    margin: 8px;
+    background-color: rgb(53, 51, 51);
+}
+.first-part ul li.active{
+    color: rgb(194, 25, 25) ;
+}
+.images img  {
+    height: 588px;
+    width: 1300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    filter: drop-shadow(0 0 1rem rgb(194, 25, 25));
+}
+
+.second-part{
+    background-color: black;
+    height: 590px;
+}
+.leftside {
+    background-color: black;
+    width: 50%;
+    float: left;
+    padding-left: 70px;
+    padding-top: 60px;
+}
+.part1{
+    position: absolute;
+}
+.part1 img{
+    float: left;
+    width: 20%;
+    padding: 0 0;
+}
+.part1 pre{
+    color: #9b9191;
+    font-size: medium;
+    font-family: 'Grape Nuts', cursive;
+    border-right: 2px solid rgb(194, 25, 25) ;
+}
+.part2{
+    
+    position: absolute;
+    padding-top: 550px;
+    padding-left: 300px;
+}
+.part2 pre{
+    color: #9b9191;
+    font-size: medium;
+    font-family: 'Grape Nuts', cursive;
+    border-bottom: 2px solid rgb(194, 25, 25) ;
+
+}
+.rightside {
+    background-color: black;
+    float: right;
+    top: 125px;
+    width: 50%;
+    margin: 5;
+    padding-left: 15px;
+    padding-top: 75px;
+}
+.rightside img{
+  width: 300px;
+  height: 270px;
+  border-radius: 20px;
+  padding: 10px;
+  transition: transform .5s ease;
+}
+.third-part {
+    background-color: black;
+    height: 750px;
+}
+.map {
+    float: left;
+    width: 60%;
+    padding-left: 100px;
+    padding-top: 90px;
+}
+.map iframe{
+    border-radius: 3%;
+}
+
+.infos {
+    float: right;
+    width: 40%;
+    padding-left: 120px;
+    padding-top: 120px;
+}
+.infos pre{
+    position: absolute;
+    color: #9b9191;
+    font-family: 'Grape Nuts', cursive;
+    font-size:x-large;
+    text-align: center;
+    border-left: 3px solid rgb(194, 25, 25);
+    border-bottom: 3px solid rgb(194, 25, 25);
+}
+
+

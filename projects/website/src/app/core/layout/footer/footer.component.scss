@@ -10,8 +10,9 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #000000;
+	background-color: #0e0d0d;
     padding: 20px 0;
+	padding-top: 20px;
 }
 .footer-col{
    width: 25%;
@@ -39,7 +40,7 @@ ul{
 	margin-bottom: 10px;
 }
 .footer-col ul li a{
-	font-size: 16px;
+	font-size: 17px;
 	text-transform:capitalize ;
 	color: #8b7e7e;
 	text-decoration: none;
@@ -47,11 +48,13 @@ ul{
 	color: #8b7e7e;
 	display: block;
 	transition: all 0.3s ease;
+	
 }
 .footer-col ul li a:hover{
 	color: rgb(146, 49, 49);
 	padding-left: 7px;
 }
+
 .footer-col .social-links a{
 	display: inline-block;
 	height: 40px;
@@ -62,27 +65,27 @@ ul{
 	line-height: 40px;
 	border-radius: 50%; 
 	color: rgb(194, 25, 25);
-	transition: all 0.5s ease;
+	border-radius: 100px;
 }
 .footer-col .social-links a:hover{
-  padding: 1.5em;
+	background-color: rgb(192, 35, 35);
+	color: #000000;
 }
-textarea {
-	width: 200px;
-	height: 60px;
-	border-radius: 6px;
-	background-color:#000000;
-	color: rgb(255, 255, 255);
-	border-color: #8b7e7e;
-  }
-  input{
+input{
 	width: 200px;
 	height: 30px;
 	border-radius: 8px;
 	color:rgb(255, 255, 255);
-	background-color: #000000;
-	border-color:#8b7e7e;
-
+	background-color: #111010;
+	border: 1px solid rgb(194, 25, 25);
+  }
+textarea {
+	width: 200px;
+	height: 60px;
+	border-radius: 6px;
+	background-color:#111010;
+	color: rgb(255, 255, 255);
+	border: 1px solid rgb(194, 25, 25);
   }
 
 .email {
