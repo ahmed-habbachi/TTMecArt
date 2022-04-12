@@ -72,6 +72,9 @@
   padding: 10px;
   transition: transform .5s ease;
 }
+.rightside img:hover{
+    -webkit-transform:scale(1.2);
+}
 .third-part {
     background-color: black;
     height: 750px;
