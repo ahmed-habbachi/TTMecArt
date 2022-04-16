@@ -73,7 +73,7 @@
   transition: transform .5s ease;
 }
 .rightside img:hover{
-    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
 }
 .third-part {
     background-color: black;

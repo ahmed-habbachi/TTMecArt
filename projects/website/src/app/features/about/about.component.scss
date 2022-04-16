@@ -1,0 +1,68 @@
+.allteam{
+    background-color: rgb(107, 100, 100);
+    height: 430px;
+    display: flex;
+}
+.message{
+  width: 30%;
+  padding-top: 50px;
+  padding-right: 110px;
+  text-align: center;
+}
+.cadre{
+  border: 11px solid #797676;
+  border-radius: 5%;
+  background-color: #797676;
+}
+.message h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  color:#7c2c2c
+}
+.message p{
+  font-size: 'Ubuntu Mono', monospace;
+  font-size: 25px;
+  color: #1b0303;
+}
+.aboutimg{
+    width: 70%;
+}
+.aboutimg::before{
+    position: absolute;
+    content: '';
+    right: 475px;
+    top: 135px;
+    border: 2px solid rgb(194, 25, 25);
+    width: 830px;
+    height: 370px;
+}
+.aboutimg img{
+     width: 90%;
+     padding-left: 20px;
+     padding-top: 25px;
+ }
+ .teams1{
+  background-color: rgb(107, 100, 100);
+  height: 440px;
+  display: flex;
+  padding-left: 48px;
+  padding-top: 90px;
+}
+.teams2{
+  background-color: rgb(107, 100, 100);
+  display: flex;
+  height: 400x;
+  padding-left: 165px;
+}
+.teams3{
+  background-color: rgb(107, 100, 100);
+  display: flex;
+  height: 350px;
+  padding-left: 280px;
+}
+.teams4{
+  background-color: rgb(107, 100, 100);
+  display: flex;
+  height: 370px;
+  padding-left: 405px;
+}
