@@ -20,9 +20,7 @@ const routes: Routes = [
   {
     path: 'achivements',
     loadChildren: () =>
-      import('./features/achivements/achivements.module').then(
-        (m) => m.AchivementsModule
-      ),
+      import('./features/achivements/achivements.module').then((m) => m.AchivementsModule),
   },
   {
     path: 'clients',
@@ -32,9 +30,7 @@ const routes: Routes = [
   {
     path: 'maintenances',
     loadChildren: () =>
-      import('./features/maintenances/maintenances.module').then(
-        (m) => m.MaintenancesModule
-      ),
+      import('./features/maintenances/maintenances.module').then((m) => m.MaintenancesModule),
   },
   {
     path: 'managements',

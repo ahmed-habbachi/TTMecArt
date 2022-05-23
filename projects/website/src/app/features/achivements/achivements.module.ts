@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { AchivementsRoutingModule } from './achivements-routing.module';
 import { AchivementsComponent } from './achivements.component';
+import { AwardComponent } from './award/award.component';
 
 
 @NgModule({
   declarations: [
-    AchivementsComponent
+    AchivementsComponent,
+    AwardComponent
   ],
   imports: [
     CommonModule,

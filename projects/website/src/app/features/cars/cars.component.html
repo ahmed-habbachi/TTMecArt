@@ -1,1 +1,145 @@
-<p>cars works!</p>
+<section class="button">
+    <div class="btns">
+        <div class="devis">
+           <a (click)="open(devis)" class="btn" target="_blank">
+              <i class="fas fa-car" aria-hidden="true"></i>
+              request devis
+           </a>
+        </div>
+        <div class="cartest">
+         <a (click)="open(cartestF)" class="btn" target="_blank">
+           <i class="fa fa-file-pdf" aria-hidden="true"></i>
+            test drive
+         </a>
+      </div>
+      </div>
+</section>
+<section class="cars1">
+    <app-carcard class="car" [picturePath]="'assets/cars/1-agya-populaire.jpg'" [title]="'AGYA Popular'" [prix]="'From 24 162DT'" [text]="'stylish, fun and reliable,the new modern and innovative vehecule with its unique ambience'"></app-carcard>
+    <app-carcard class="car" [picturePath]="'assets/cars/2 agya.jpg'" [title]="'AGYA'" [prix]="'From 40 900DT'" [text]="'stylish, fun and reliable,the new modern and innovative vehecule with its unique ambience'"></app-carcard>
+    <app-carcard class="car" [picturePath]="'assets/cars/3 yaris.jpg'" [title]="'Yaris'" [prix]="'From 54 800DT'" [text]="'reveal your style, offer you a unique and fluid driving with the toyota yaris city car '"></app-carcard>
+    <app-carcard class="car" [picturePath]="'assets/cars/4 corolla hatchback.png'" [title]="'Nouvelle Corolla Hatchback'" [prix]="'From 76 900DT'" [text]="'the new corolla hatchback a revolutionary vehicle for exhilarating driving.Life awaits you'"></app-carcard>
+</section>
+<section class="cars2">
+    <app-carcard class="car" [picturePath]="'assets/cars/5 corolla sedan.png'" [title]="'Nouvelle Corolla Sedan'" [prix]="'From 110 000DT'" [text]="'the new hybrid sedann corolla a unique experience of fluid and relaxing driving'" style="color: rgb(0, 0, 255);"></app-carcard>
+    <app-carcard class="car" [picturePath]="'assets/cars/6 C-HR 2020.png'" [title]="'Nouveau C-HR 2020'" [prix]="'From 88 900DT'" [text]="'the new facelift 2020, new design, more equipment, all at the same price!'"></app-carcard>
+    <app-carcard class="car" [picturePath]="'assets/cars/7 rav4.png'" [title]="'Nouvelle RAV 4'" [prix]="'From 145 900DT'" [text]="'a truly refined and unique SUV'" style="color: rgb(0, 0, 255);"></app-carcard>
+    <app-carcard class="car" [picturePath]="'assets/cars/8 land_cruiser_79.png'" [title]="'Land Cruiser 79'" [prix]="'From 134 800DT'" [text]="'drive beyond all expectations'"></app-carcard>
+</section>
+<section class="cars3">
+    <app-carcard class="car" [picturePath]="'assets/cars/9 Hilux 4x4 business.png'" [title]="'HILUX 4x4 Business'" [prix]="'From 136 000DT'" [text]="'Hilux-designed to face the most extreme conditions. Conformity and quality. Performance and power'"></app-carcard>
+    <app-carcard class="car" [picturePath]="'assets/cars/10 Hilux 4x4 premium.png'" [title]="'HILUX 4x4 Premium'" [prix]="'From  154 000DT'" [text]="'Hilux-designed to face the most extreme conditions. Conformity and quality. Performance and power'"></app-carcard>
+    <app-carcard class="car" [picturePath]="'assets/cars/11 PRADO.png'" [title]="'PRADO'" [prix]="'324 000DT'" [text]="'Toyota PRADO outstanding off-road performance. Unparalleled off-road performance.'"></app-carcard>
+    <app-carcard class="car" [picturePath]="'assets/cars/12 Land Cruiser 76.png'" [title]="'Land Cruiser 76'" [prix]="'From 114 000DT'" [text]="'drive beyond all expectations'"></app-carcard>
+</section>
+<section class="cars4">
+    <app-carcard class="car" [picturePath]="'assets/cars/13 HIACE.jpg'" [title]="'Hiace 16P'" [prix]="'138 000DT'" [text]="'comfortable, ergonomic and spacious. The vehicle that perfectly meets your needs'"></app-carcard>
+    <app-carcard class="car" [picturePath]="'assets/cars/14 COASTER.png'" [title]="'Coaster'" [prix]="'226 000DT'" [text]="'for reliable transport safety and comfort for all'"></app-carcard>
+</section>
+
+<ng-template #devis>      
+    <fieldset class="f1">
+     <div class="carmeet1">
+     <label for="field1">
+         <span class="required">Name and family-name *</span><br>
+         <input type="text" class="input-field" name="field1" value="" placeholder="foulen" required>
+     </label>
+     <br>
+     <label for="field2">
+         <span class="required">mobile *</span><br>
+         <input type="text" class="input-field" name="field2" placeholder="+216 12 345 678" value="" required>
+     </label>
+     <br>
+     <label for="field3">
+         <span class="required">Email *</span><br>
+         <input type="email" class="input-field" name="field3" placeholder="toyota@gmail.com" required>
+     </label>
+     <br>
+     <label for="field4">
+         <span class="required">Car model *</span><br>
+          <select name="field7" class="select-field">
+          <option value="" disabled selected hidden>choose car model </option>
+          <option value="AGYA BVA">AGYA BVA </option>
+          <option value="AGYA BVM">AGYA BVM</option>
+          <option value="C-HR BVM">C-HR BVM</option>
+          <option value="C-HR BVA">C-HR BVA</option>
+          <option value="COROLLA CROSS HYBRID">COROLLA CROSS HYBRID</option>
+          <option value="COROLLA HB ACTIVE">COROLLA HB ACTIVE</option>
+          <option value="COROLLA HB BUSINESS">COROLLA HB BUSINESS</option>
+          <option value="COROLLA HB DYN">COROLLA HB DYN</option>
+          <option value="PRADO BVA">PRADO BVA</option>
+          <option value="HILUX BUSINESS">HILUX BUSINESS</option>
+          <option value="HILUX PREMIUM">HILUX PREMIUM</option>
+          <option value="LC 79">LC 79</option>
+          <option value="LC 76">LC 76</option>
+          <option value="RAV 4 ACTIVE">RAV 4 ACTIVE</option>
+          <option value="RAV 4 HYBRIDE">RAV 4 HYBRIDE</option>
+          <option value="YARIS FRANCE">YARIS FRANCE</option>
+         </select>
+     </label>
+     </div>
+   </fieldset>
+   <fieldset>
+     <div class="carmeet2">
+         <input  type="submit" value="Submit">  
+         <input type="reset" value="Cancel" />
+     </div> 
+  </fieldset>
+  </ng-template>
+
+  <ng-template #cartestF>      
+    <fieldset class="f1">
+     <div class="carmeetF1">
+     <label for="field1">
+         <span class="required">Name and family-name *</span><br>
+         <input type="text" class="input-field" name="field1" placeholder="foulen fouleni" value="" required>
+     </label>
+     <br>
+     <label for="field2">
+         <span class="required">mobile *</span><br>
+         <input type="text" class="input-field" name="field2" placeholder="+216 12 345 678" value="" required>
+     </label>
+     <br>
+     <label for="field3">
+         <span class="required">Email *</span><br>
+         <input type="email" class="input-field" name="field3" placeholder="toyota@gmail.com" required>
+     </label>
+     <br>
+     <label for="field4">
+         <span class="required">Car model *</span><br>
+          <select name="field7" class="select-field">
+          <option value="" disabled selected hidden>choose car model </option>
+          <option value="AGYA BVA">AGYA BVA </option>
+          <option value="AGYA BVM">AGYA BVM</option>
+          <option value="C-HR BVM">C-HR BVM</option>
+          <option value="C-HR BVA">C-HR BVA</option>
+          <option value="COROLLA CROSS HYBRID">COROLLA CROSS HYBRID</option>
+          <option value="COROLLA HB ACTIVE">COROLLA HB ACTIVE</option>
+          <option value="COROLLA HB BUSINESS">COROLLA HB BUSINESS</option>
+          <option value="COROLLA HB DYN">COROLLA HB DYN</option>
+          <option value="PRADO BVA">PRADO BVA</option>
+          <option value="HILUX BUSINESS">HILUX BUSINESS</option>
+          <option value="HILUX PREMIUM">HILUX PREMIUM</option>
+          <option value="LC 79">LC 79</option>
+          <option value="LC 76">LC 76</option>
+          <option value="RAV 4 ACTIVE">RAV 4 ACTIVE</option>
+          <option value="RAV 4 HYBRIDE">RAV 4 HYBRIDE</option>
+          <option value="YARIS FRANCE">YARIS FRANCE</option>
+         </select>
+     </label>
+
+     <label>
+         <span class="required" >Date *</span><br>
+        <input class="date" type="date" max="2023-12-31" min="today()" name="the_date">
+     </label>
+
+     </div>
+   </fieldset>
+   <fieldset>
+     <div class="carmeetF2">
+         <input  type="submit" value="Submit">  
+         <input type="reset" value="Cancel" />
+     </div> 
+  </fieldset>
+  </ng-template>
+

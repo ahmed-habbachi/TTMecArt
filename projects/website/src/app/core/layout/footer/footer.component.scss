@@ -1,51 +1,42 @@
-.container{
-	max-width: 1170px;
-	margin: auto ;
-}
-.row{
-	display:flex ;
-	flex-wrap:wrap ;
-}
+
 ul{
 	list-style: none;
+	padding-left: 0;
 }
 .footer{
 	background-color: #0e0d0d;
-    padding: 20px 0;
-	padding-top: 20px;
 }
 .footer-col{
    width: 25%;
-   padding: 9 15px;
+   padding: 5vh 3vw;
 }
 .footer-col h4{
-	font-size: 18px;
+	font-size: 110%;
 	color: #8b7e7e;
 	text-transform: capitalize;
-	margin-bottom: 35px;
+	margin-bottom: 20%;
 	font-weight: 500;
 	position: relative;
 }
 .footer-col h4::before{
 	content: '';
 	position:absolute;
-	left: 0px;;
-	bottom: -10px;
+	left: 0vw;
+	bottom: -0.5vw;
 	background-color: rgb(194, 25, 25);
-	height: 2px;
+	height: 0.3vh;
 	box-sizing: border-box ;
-	width: 50px;
+	width: 25%;
 }
 .footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
+	margin-bottom: 2vh;
 }
 .footer-col ul li a{
-	font-size: 17px;
+	font-size: 100%;
 	text-transform:capitalize ;
 	color: #8b7e7e;
 	text-decoration: none;
-	font-weight: 300;
-	color: #8b7e7e;
+	font-weight: 1%;
 	display: block;
 	transition: all 0.3s ease;
 	
@@ -57,32 +48,32 @@ ul{
 
 .footer-col .social-links a{
 	display: inline-block;
-	height: 40px;
-	width: 40px;
+	height: 40%;
+	width: 20%;
 	background-color: rgb(48, 40, 40) ;
-	margin:0 10px 10px 0;
+	margin:0 0.5VW 2VH 0;
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%; 
 	color: rgb(194, 25, 25);
-	border-radius: 100px;
+	border-radius: 100%;
 }
 .footer-col .social-links a:hover{
 	background-color: rgb(192, 35, 35);
 	color: #000000;
 }
 input{
-	width: 200px;
-	height: 30px;
-	border-radius: 8px;
+	width: 14.5VW;
+	height: 2.3VW;
+	border-radius: 0.5VW;
 	color:rgb(255, 255, 255);
 	background-color: #111010;
 	border: 1px solid rgb(194, 25, 25);
   }
 textarea {
-	width: 200px;
-	height: 60px;
-	border-radius: 6px;
+	width: 14.5VW;
+	height: 4VW;
+	border-radius: 0.6VW;
 	background-color:#111010;
 	color: rgb(255, 255, 255);
 	border: 1px solid rgb(194, 25, 25);
@@ -96,13 +87,13 @@ textarea {
 }
 .btn {
 	color: rgb(194, 25, 25);
-	border-radius: 12px;
+	border-radius: 1VW;
 	background-color: rgb(48, 40, 40); 
     border: none;
-	padding: 2px 12px;
+	padding: 0.5VH 1VW;
 }
 .btn:hover{
-	box-shadow: 0 0 10px #646464;
+	box-shadow: 0 0 0.5VW #646464;
   }
 
 

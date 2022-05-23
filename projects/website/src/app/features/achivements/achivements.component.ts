@@ -11,5 +11,4 @@ export class AchivementsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

@@ -1,0 +1,24 @@
+.card{
+    background-color: rgb(209, 202, 202);
+    width: 21vw;
+    height: 50vh;
+}
+.card a{
+    color: rgb(212, 23, 23);
+    text-decoration: underline;
+    background-color: transparent;
+    border: 1VW solid transparent;
+    font-size: 2vh;
+}
+
+.card-body p{
+    color: black;
+    font-size: 2.5vh;
+	margin-bottom: 2vh;
+}
+.card-body h5{
+    font-size: 3vh;
+}
+.card-body {
+    height: 15%;
+}

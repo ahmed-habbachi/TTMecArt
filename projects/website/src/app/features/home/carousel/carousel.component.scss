@@ -1,0 +1,20 @@
+.carousel-indicators{
+    
+ button{
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 1vh;
+}
+}
+.carousel-item img  {
+    height: 90vh;
+    width: 97%;
+    padding-top: 4vh;
+    padding-left: 2vw;
+    padding-right: 5vw;
+    padding-bottom: 4vh;
+    filter: drop-shadow(0 0 1rem rgb(255, 0, 0));
+}
+.carousel-control-next,.carousel-control-prev{
+    top: 50% !important;
+    height: 50px;
+}

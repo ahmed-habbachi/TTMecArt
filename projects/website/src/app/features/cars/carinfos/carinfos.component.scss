@@ -1,0 +1,129 @@
+.first{
+  height: 85vh;
+  background-color:rgb(90, 86, 86);
+  .btns{
+      padding-top: 5vh;
+  }
+}
+
+.last {
+    height: 45vh;
+    justify-content: center;
+    }
+    @-webkit-keyframes scroll {
+    0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7));
+    }
+    }
+    @keyframes scroll {
+    0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7));
+    }
+    }
+    .slider {
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 45vh;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    }
+    .slide img{
+    height: 45vh;
+    width: 25vw;
+    border-right: 4px solid rgb(187, 16, 16);
+    
+    }
+    .slider.slide-track.active {
+    transform:scale(1.2);
+    border-right: 1px solid rgb(187, 16, 16);
+    border-left: 1px solid rgb(187, 16, 16);
+    }
+    
+    .slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: 100%;
+    height: 45vh;
+    
+    }
+    .slider .slide {
+    height: 45vh;
+    width: 25vw;
+    }
+    .description{
+        height: 97vh;
+        display: flex;
+        background-color: rgb(90, 86, 86);
+        padding-left: 7vw;
+    }
+    .description.text{
+        width: 50%;
+        float: left;
+    }
+    .text pre{
+        color: #000000;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 2vw;
+    }
+    .description.QR{
+        float: right;
+        width: 50%;
+    }
+    .QR img{
+        height: 65vh;
+        width: 90%;
+        margin-left: 5vw;
+        margin-top: 1vh;
+    }
+    .text pre span{
+        color: rgb(136, 12, 12);
+    }
+
+.arrays{
+    height: 232vh;
+    background-color:rgb(90, 86, 86);
+    .tab{
+        width:55vw;
+        margin: auto;
+     .table-dark{
+        background-color: rgb(187, 16, 16);
+        font-size: 150%;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width: 55VW;
+        height: 7.3VH;
+     }
+     .tablebig{
+        height: auto;
+        width: 55vw;
+        td{
+            height: 5vh;
+        }
+       .colored td{
+        background-color: #974848;
+        }
+       .transparent td{
+        background-color: transparent;
+        }
+      }
+      .table-primary{
+        width: 50%;
+      }
+      .table-secondary{
+        width: 50%;
+      }   
+    }
+}
+
+

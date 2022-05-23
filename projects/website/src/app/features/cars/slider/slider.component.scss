@@ -1,0 +1,25 @@
+.carousel{
+.carousel-indicators{
+    margin-right:45vw;
+    margin-bottom: 1vh;
+ .btn{
+    background-color: rgb(0, 0, 0);
+    .active{
+        background-color:rgb(228, 29, 29) ;
+    }
+ }
+}
+.carousel-item img  {
+    height: 80vh;
+    padding-right: 40vw;
+    padding-top: 0;
+}
+.carousel-control-next,.carousel-control-prev{
+    color: rgb(228, 29, 29);
+    top: 45%;
+    height: 50px;
+}
+.carousel-control-next{
+    margin-right: 31vw;
+}
+}

@@ -1,8 +1,83 @@
-<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <div class="icon-bar">
-        <a routerLink="" class="first"><i class="fa fa-bars"></i></a>
-        <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-user"></i></a>
-        <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-wrench" ></i></a>
-        <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-map-pin" ></i></a>
-        <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-envelope"></i></a>
+<div class="icon-bar">
+    <a href="" class="first" aria-label="bar"><i class="fa fa-bars"></i></a>
+    <a (click)="open(logIN)"><i class="fa fa-user"></i></a>
+    <a (click)="open(meeting)" ><i class="fa fa-calendar"></i></a>
+    <a href="home#map" alt="" aria-label="map"><i class="fa fa-map-pin"></i></a>
+    <a href="#footer" aria-label="comment"><i class="fa fa-envelope"></i></a>
+</div>
+
+<ng-template class="log" #logIN>
+    <div class="box">
+        <h1>Login Form</h1>
+        <form action="post" class="login-form">
+            <input type="email" name="email" placeholder="Enter Email.."><br>
+            <input type="Password" name="password" placeholder="Enter Password.."><br>
+            <div>
+            <a routerLink="/clients" class="btn" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">login</a>
+            </div>
+    </form>
     </div>
+</ng-template>
+
+<ng-template #meeting>
+     <fieldset class="f0">
+     <h1>Rendez-Vous</h1>
+    </fieldset>
+     <fieldset class="f1">
+     <div class="carmeet1">
+     <label for="field1">
+         <span class="required">Name *</span><br>
+         <input type="text" class="input-field" name="field1" placeholder="foulen fouleni" value="" required>
+     </label>
+     <br>
+     <label for="field2">
+         <span class="required">Adress *</span><br>
+         <input type="text" class="input-field" name="field2" value=""  required>
+     </label>
+     <br>
+     <label for="field3">
+         <span class="required">Email *</span><br>
+         <input type="email" class="input-field" name="field3" placeholder="toyota@gmail.com" required>
+     </label>
+     <br>
+     <label for="field4">
+         <span class="required">Phone *</span><br>
+         <input type="text" maxlength="8" class="input-field" name="field4" value="" placeholder="+216 12 345 678" required>
+     </label>
+     <label for="field5">
+         <span class="required">Car model *</span><br>
+         <input type="text" class="input-field" name="field5" value="" required>
+     </label>
+     <label for="field6">
+         <span class="required">matriculation *</span><br>
+         <input type="text" class="input-field" name="field6" placeholder="133 TN 1333" required>
+     </label>
+     <label for="field7">
+         <span>Subject</span><br>
+          <select name="field7" class="select-field">
+          <option value="" disabled selected hidden>choose maintenance type</option>
+          <option value="showroom tour">showroom-test</option>
+          <option value="APV">APV</option>
+          <option value="Quickmaintenance">Quick maintenance</option>
+         </select>
+     </label>
+     <label for="field8" class="avb">
+        <span>availability</span><br>
+        
+        <input class="date" type="date" max="2023-12-31" min="today()" name="the_date">
+        <input class="time" type="time" name="time">   
+    </label>
+     </div>
+   </fieldset>
+   <fieldset class="f2">
+       <div class="carmeet2">
+     <label for="field6" class="comment">
+         <textarea name="field6" class="textarea-field" placeholder="make a comment"></textarea>
+     </label>
+     <br>
+     <label class="button" > 
+         <input  type="submit" value="Submit">  
+         <input type="reset" value="Cancel" /></label>
+        </div>
+   </fieldset>
+</ng-template>

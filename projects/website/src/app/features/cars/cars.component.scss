@@ -1,0 +1,117 @@
+.cars1, .cars2, .cars3, .cars4{
+    justify-content: space-between;
+    background-color: rgb(90, 86, 86);
+    display: flex;
+}
+.cars4{
+    height: 60vh;
+    padding-right: 27.6vw;
+    padding-left: 26.7vw;
+    padding-top: 4.5vh;
+}
+.cars1, .cars2, .cars3{
+    height: 55VH;
+    padding-right: 4vw;
+    padding-left: 3vw;
+    padding-top: 1vh;
+}
+.button{
+    height: 12vh;
+    background-color: rgb(90, 86, 86);
+ .btns{
+     padding-top: 2vh;
+    .devis a,.cartest a{
+       background-color: rgb(153, 31, 31);
+       border: 1px solid rgb(82, 78, 78);
+       color: #ffffff;
+       border-radius: 20%;
+       font-size: 160%;
+       height: 8vh;
+    }
+    .devis{
+        float: left;
+        padding-left: 40%;
+        font-size: 65%;
+        a{
+            padding-top: 1.5vh;
+            i{
+              font-size: 120%;
+            }
+        }
+    }
+    .cartest{
+        float:right;
+        padding-right: 40%;
+        font-size: 65%;
+        a{
+            padding-top: 1.5vh;
+        }
+    }
+    .btn:hover{
+       box-shadow: 0 0 0.5VW #646464;
+     }
+ }
+}
+.carmeet1,.carmeet2,.carmeetF1,.carmeetF2{
+    background-color: rgb(131, 120, 120);
+    padding-left: 1vw;
+    padding-top: 1vh;
+    width: 25vw;
+    input{
+      height: 4.5vh;
+      background-color: rgb(48, 45, 45);
+      border:1px solid rgb(48, 45, 45);
+      border-radius: 2VH;
+      width: 19.4vw;
+    }
+  }
+  .carmeet1{
+    height: 45vh;
+    label{
+      margin:2%;
+      select{
+      height: 4.5vh;
+      width: 19.4vw;
+      background-color: rgb(48, 45, 45);
+      border:1px solid rgb(48, 45, 45);
+      border-radius: 2VH;
+      }
+    }
+  }
+  .carmeet2{
+    height: 12vh;
+    padding-left: 5vw;
+    input{
+      background-color: rgb(59, 12, 12);
+      border: 1px solid rgb(59, 12, 12);
+      color: white;
+      width: 5vw;
+    }
+  }
+
+  .carmeetF1{
+    height: 55vh;
+    label{
+      margin:2%;
+      select{
+      height: 4.5vh;
+      width: 19.4vw;
+      background-color: rgb(48, 45, 45);
+      border:1px solid rgb(48, 45, 45);
+      border-radius: 2VH;
+      }
+    }
+  }
+  .carmeetF2{
+    height: 12vh;
+    padding-left: 5vw;
+    input{
+      background-color: rgb(59, 12, 12);
+      border: 1px solid rgb(59, 12, 12);
+      color: white;
+      width: 5vw;
+    }
+  }
+
+
+  

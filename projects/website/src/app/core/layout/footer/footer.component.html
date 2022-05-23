@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
-<footer class="footer">
+<footer class="footer" id="footer">
   <div class="container">
     <div class="row">
       <div class="footer-col">
@@ -16,7 +16,7 @@
         <h4>get help</h4>
         <ul>
          <li><a routerLink="/cars">Devis</a></li>
-         <li><a routerLink="/home">Meeting</a></li>
+         <li><a routerLink="/home">rendez-vous</a></li>
          <li><a routerLink="/home">LogIn/LogOut</a></li>
          <li><a routerLink="/home">Maps and Infos</a></li>
         </ul>
@@ -40,11 +40,13 @@
           <form action="#">
             <div class="email">
               <label class="text">Email *<br>
-              <input  type="email" required></label>
+               <input  type="email" required>
+              </label>
             </div>
             <div class="msg">
               <label class="text">Message *<br>
-              <textarea rows="2" cols="25" required></textarea></label>
+               <textarea rows="2" cols="25" required></textarea>
+              </label>
             </div>
             <div>
               <button type="submit" class="btn">Send</button>

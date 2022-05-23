@@ -104,7 +104,8 @@
             "styles": [
               "projects/website/src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "preserveSymlinks": true
           }
         }
       }
